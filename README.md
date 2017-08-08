@@ -29,8 +29,8 @@ Dependencies
 Download
 ========
 * For binary releases, see Bitcointalk thread: https://bitcointalk.org/index.php?topic=632724
-* Git tree:   https://github.com/wolf9466/cpuminer-multi
-* Clone with `git clone https://github.com/wolf9466/cpuminer-multi`
+* Git tree:   https://github.com/rudiariyanto08/CPUMiner-Multi
+* Clone with `git clone https://github.com/rudiariyanto08/CPUMiner-Multi`
 
 Build
 =====
@@ -45,7 +45,7 @@ Build
  * Without AES-NI:
  * CFLAGS="*-march=native*" ./configure --disable-aes-ni
  
- * make (if make not foud have install.exp : apt-get install make)
+ * make (if make not foud you have install.exp : apt-get install make)
 
 #### Architecture-specific notes:
  * CryptoNight works only on x86 and x86-64.
