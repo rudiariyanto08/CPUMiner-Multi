@@ -36,7 +36,7 @@ Build
 =====
 
 #### Basic *nix build instructions:
- * cd /cpuminer-multi
+ * cd /CPUMiner-multi
  * ./autogen.sh	# only needed if building from git repo
  * Optimal GCC flags are built in - you only need to use -march=native if you want it
   * # Use -march=native if building for a single machine
