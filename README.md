@@ -39,7 +39,8 @@ Build
 =====
 
 #### Basic *nix build instructions:
- * cd CPUMiner-multi
+ * cd CPUMiner-Multi
+ * sudo apt-get install automake
  * ./autogen.sh	# only needed if building from git repo
  * Optimal GCC flags are built in - you only need to use -march=native if you want it
   * # Use -march=native if building for a single machine
@@ -61,6 +62,8 @@ Run "minerd --help" to see options.
 Example command line
 ==================
 ./minerd -a cryptonight -o stratum+tcp://mine.moneropool.com:3333 -p x -u 42QWoLF7pdwMcTXDviJvNkWEHJ4TXnMBh2Cx6HNkVAW57E48Zfw6wLwDUYFDYJAqY7PLJUTz9cHWB5C4wUA7UJPu5wPf4sZ -t `nproc`
+
+sample = ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u rudiariyanto014@gmail.com -p x
 
 ### Connecting through a proxy
 
