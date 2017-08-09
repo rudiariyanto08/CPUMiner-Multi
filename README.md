@@ -30,13 +30,16 @@ Download
 ========
 * For binary releases, see Bitcointalk thread: https://bitcointalk.org/index.php?topic=632724
 * Git tree:   https://github.com/rudiariyanto08/CPUMiner-Multi
+* sudo apt-get update
+* sudo apt-get install git
+* sudo apt-get install build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
 * Clone with `git clone https://github.com/rudiariyanto08/CPUMiner-Multi`
 
 Build
 =====
 
 #### Basic *nix build instructions:
- * cd /CPUMiner-multi
+ * cd CPUMiner-multi
  * ./autogen.sh	# only needed if building from git repo
  * Optimal GCC flags are built in - you only need to use -march=native if you want it
   * # Use -march=native if building for a single machine
